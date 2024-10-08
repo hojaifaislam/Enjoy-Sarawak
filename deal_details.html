@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="app, landing, corporate, Creative, Html Template, Template">
+    <meta name="author" content="web-themes">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, initial-scale=1">
+
+    <!-- title -->
+    <title>EnjoySarawak</title>
+
+    <!-- favicon -->
+    <link href="img/favicon.png" type="image/png" rel="icon">
+
+    <!-- all css here -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/fontawesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/owl.carousel.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/nice-select.css" rel="stylesheet" type="text/css" />  
+    <link href="css/helper.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/responsive.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <!-- Preloader Start -->
+    <div id="preloader">
+        <div class="loader3">
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+    <!-- Preloader End -->
+
+
+    <!-- login modal -->
+    <div class="modal fade" id="login" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body p-0 text-center">
+                    <h2>Log In</h2>
+                    <p>Login to start EnjoySarawak journey</p>
+                    <form action="#" class="account_form">
+                        <input type="email" placeholder="Enter E-mail">
+                        <input type="password" placeholder="Enter Password">
+                        <button type="submit" class="button">Log In</button>
+                        <div class="or_text"><span>OR</span></div>
+                        <div class="social_icon">
+                            <a href="#"><img src="img/fb.svg" alt=""></a>
+                            <a href="#"><img src="img/google.svg" alt=""></a>
+                            <a href="#"><img src="img/apple.svg" alt=""></a>
+                        </div>
+                        <p>Don’t have an account? <a data-toggle="modal" data-dismiss="modal" href="#signup">Sign Up</a></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>    
+
+    <!-- sign modal -->
+    <div class="modal fade" id="signup" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body p-0 text-center">
+                    <div class="text-left">
+                        <button data-dismiss="modal" data-toggle="modal" data-target="#login" type="button" class="back_btn">
+                            <img src="img/back.svg" alt="">
+                        </button>
+                    </div>
+                    <h2>Sign Up</h2>
+                    <p>Get enjoy sarawak account and find your joy wherever you are or wherever you’re going</p>
+                    <form action="#" class="account_form">
+                        <input type="email" placeholder="Enter E-mail">
+                        <input type="tel" placeholder="+60">
+                        <input type="password" placeholder="Enter Password">
+                        <input type="text" placeholder="Referral Code (if any)">
+                        <button type="submit" class="button mb_20">Sign Up Now</button>
+
+                        <p>By signing up or logging in, you acknowledge and agree to EnjoySarawak's Terms of Use and Privacy Policy</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- start header -->
+    <header>
+        <div class="header_top">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-5">
+                        <a href="index.html" class="logo">
+                            <img src="img/logo.svg" class="w-100" alt="">
+                        </a>
+                    </div>
+                    <div class="col-7 d-flex align-items-center justify-content-end top_menu">
+                        <form action="#">
+                            <select>
+                                <option>Eng</option>
+                                <option>Fra</option>
+                                <option>Deu</option>
+                            </select>
+                        </form>
+                        <ul>
+                            <li><a href="#">Go to app</a></li>
+                            <li><a href="#">Help</a></li>
+                        </ul>
+                        <div class="btn_group d-none d-lg-flex align-items-center">
+                            <a href="#signup" data-toggle="modal" class="button outline">Sign up</a>
+                            <a href="#login" data-toggle="modal" class="button">Log in</a>
+                        </div>
+
+                        <!-- menu toggler -->
+                        <div class="hamburger-menu">
+                            <span class="line-top"></span>
+                            <span class="line-center"></span>
+                            <span class="line-bottom"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header_bottom">
+            <div class="container">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Hotel</a></li>
+                    <li><a href="#">Special Stay</a></li>
+                    <li><a href="#" class="active">Food</a></li>
+                    <li><a href="#">Tour & Activities</a></li>
+                    <li><a href="#">Healthcare</a></li>                        
+                    <li><a href="#">Spa & Wellness</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- mobile menu -->
+        <div class="mobile_menu d-lg-none">
+            <div class="container">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Hotel</a></li>
+                    <li><a href="#">Special Stay</a></li>
+                    <li><a href="#" class="active">Food</a></li>
+                    <li><a href="#">Tour & Activities</a></li>
+                    <li><a href="#">Healthcare</a></li>                        
+                    <li><a href="#">Spa & Wellness</a></li>
+                    <li><a href="#">Go to app</a></li>
+                    <li><a href="#">Help</a></li>
+                </ul>
+                <div class="btn_group d-flex align-items-center justify-content-center mt_40">
+                    <a href="#signup" data-toggle="modal" class="button outline">Sign up</a>
+                    <a href="#login" data-toggle="modal" class="button">Log in</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="overflow-hidden">
+        <!-- details_cover_area -->
+        <div class="details_cover_area deal_details">
+            <div class="container">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">Food</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Deal detail</li>
+                </ol>
+                <div class="owl-carousel slider3">
+                    <div class="item">
+                        <img src="img/cover2.jpg" alt="" class="w-100">
+                    </div>
+                    <div class="item">
+                        <img src="img/cover1.jpg" alt="" class="w-100">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- details_restaurant -->
+        <div class="details_restaurant deal_details_restu pb_65">
+            <div class="container">
+                <h3>Bestseller</h3>
+                <h2>Mexican tacos with beef in tomato sauce and salsa</h2>
+                <div class="wilson_life">
+                    <ul>
+                        <li><img src="img/pin2.svg" alt=""></li>
+                        <li>Wilson Lifestyle Cafe (<a href="#">view map</a>)</li>
+                    </ul>
+                </div>
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="review_items_list mt_25">
+                            <h2>What do you get</h2>
+                            <ul>
+                                <li>1 rotisserie chicken – pulled off bones</li>
+                                <li>12-14 small flour tortillas</li>
+                                <li>1 can black beans- drained & rinsed</li>
+                                <li>1 bag Sargento® Fine Cut Shredded 4 Cheese Mexican</li>
+                                <li>2 tomatoes- diced</li>
+                                <li>1/4 cup freshly chopped chives</li>
+                                <li>sour cream to garnish</li>
+                            </ul>
+                        </div>
+                        <div class="review_items_list mt_30">
+                            <h2>Fine Prints</h2>
+                            <ul>
+                                <li>Valid Mon - Sun: 10am - 10pm. Valid on public holidays.</li>
+                                <li>Valid for takeaway only.</li>
+                                <li>Restaurant does not serve pork but offers alcohol.</li>
+                                <li>Not valid for offers / promotions / discounts.</li>
+                                <li>No extension on the redemption of voucher that is expired.</li>
+                                <li>1/4 cup freshly chopped chives</li>
+                                <li>Price includes SST and service charges.</li>
+                            </ul>
+                        </div>
+                        <div class="review_items_list mt_30">
+                            <h2>Redemption Policy</h2>
+                            <ul>
+                                <li>Cancel using your Fave app within the next 3 days and receive a full refund in Fave cashback</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 pl-lg-0">
+                        <div class="review_items_list voucher_wrap mt_25">
+                            <h2>Voucher</h2>
+                            <div class="voucher_item">
+                                <div class="d-flex">
+                                    <div class="voucher_img">
+                                        <img src="img/voucher.svg" alt="">
+                                    </div>
+                                    <div class="voucher_content">
+                                        <h3>Standard Package</h3>
+                                        <h4>RM250<span>40%OFF</span></h4>
+                                        <p>per person</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <a href="#" class="button">Buy Now</a>
+                                </div>
+                            </div>
+                            <div class="voucher_item mt_25 border_none">
+                                <div class="d-flex">
+                                    <div class="voucher_img">
+                                        <img src="img/voucher.svg" alt="">
+                                    </div>
+                                    <div class="voucher_content">
+                                        <h3>Double Package</h3>
+                                        <h4>RM350<span>40%OFF</span></h4>
+                                        <p>per couple</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <a href="#" class="button">Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="review_items_list mt_25">
+                            <h2>Redemption Location</h2>
+                            <div class="wilson_life">
+                                <ul>
+                                    <li><img src="img/pin2.svg" alt=""></li>
+                                    <li>Wilson Lifestyle Cafe</li>
+                                </ul>
+                                <h2>Saradise Kuching</h2>
+                                <a href="#" class="view_review">
+                                View more locations
+                                <i class="far fa-angle-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="review_items_list mt_25">
+                            <h2>Redemption Instruction</h2>
+                            <p>Present the confirmation QR code from the Enjoy Sarawak App (My Purchase) or from the email to the merchant for redemption.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Find_more_area -->
+        <div class="find_more_area section_padd">
+            <div class="container">
+                <div class="find_color">
+                    <img src="img/hbook.png" alt="" class="find_book">
+                    <div class="row justify-content-between align-items-center">
+                        <div class="col-lg-5 col-sm-6">
+                            <h3>Find more Hotel Deals on the App</h3>
+                            <div class="find_btn mt_30">
+                                <a href="#"><img src="img/app.svg" alt=""></a>
+                                <a href="#"><img src="img/play.svg" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <ul>
+                                <li>Up to 15% off</li>
+                                <li>Save with Klook credits</li>
+                                <li>Manage bookings easier</li>
+                            </ul>
+                            <a href="#" class="button black_btn">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- footer_area -->
+    <footer>
+        <div class="footer_top">
+            <img src="img/f_right.png" alt="" class="right_shape">
+            <img src="img/f_left.png" alt="" class="left_shape">
+            <div class="container">
+                <div class="row justify-content-between no-gutters">
+                    <div class="col-lg-3 col-sm-6 mt_50">
+                        <p>Lorem ipsum dolor sit amet, adipiscing elit, sed do eiusmod tempor incididunt...</p>
+                        <h2>Social Media</h2>
+                        <div class="icon_box mt_15">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-google"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 mt_50">
+                        <h2>Contact Us</h2>
+                        <div class="contact_box">
+                            <a href="tel:1123456789">
+                                <div class="contact_icon">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                +1123456789
+                            </a>    
+                            <a href="mailto:Klook008@gmail.com">
+                                <span class="contact_icon">
+                                    <i class="fas fa-envelope"></i>
+                                </span>
+                                Klook008@gmail.com
+                            </a>
+                            <p href="#">
+                                <span class="contact_icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </span>
+                                4140 Parker Rd. Allentown, New Mexico 31134
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-6 mt_50">
+                        <h2>Useful Links</h2>
+                        <ul>
+                            <li><a href="#">Terms of Use</a></li>
+                            <li><a href="#">Prvacy Policy</a></li>
+                            <li><a href="#">Faq’s</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 mt_50">
+                        <h3>Want to see more? Download the app. It's free!</h3>
+                        <div class="card_box mt_30">
+                            <a href="#"><img src="img/app.svg" alt=""></a>
+                            <a href="#"><img src="img/play.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_bottom_area">
+            <div class="container">
+                <p>© Copyright 2023 EnjoySarawak</p>
+                <ul>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!-- overlay -->
+    <div class="overlay"></div>
+    <div class="buy_fixed_btn d-sm-none">
+        <a href="#" class="button">Buy Now</a>
+    </div>
+
+
+    <!--====== BACK TO TOP START ======-->
+    <a href="#" class="back-to-top"><i class="fal fa-angle-up"></i></a>
+    
+    <!-- all js here -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

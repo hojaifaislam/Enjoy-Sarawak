@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="app, landing, corporate, Creative, Html Template, Template">
+    <meta name="author" content="web-themes">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, initial-scale=1">
+
+    <!-- title -->
+    <title>EnjoySarawak</title>
+
+    <!-- favicon -->
+    <link href="img/favicon.png" type="image/png" rel="icon">
+
+    <!-- all css here -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/fontawesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/owl.carousel.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/nice-select.css" rel="stylesheet" type="text/css" />  
+    <link href="css/helper.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/responsive.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <!-- Preloader Start -->
+    <div id="preloader">
+        <div class="loader3">
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+    <!-- Preloader End -->
+
+
+    <!-- login modal -->
+    <div class="modal fade" id="login" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body p-0 text-center">
+                    <h2>Log In</h2>
+                    <p>Login to start EnjoySarawak journey</p>
+                    <form action="#" class="account_form">
+                        <input type="email" placeholder="Enter E-mail">
+                        <input type="password" placeholder="Enter Password">
+                        <button type="submit" class="button">Log In</button>
+                        <div class="or_text"><span>OR</span></div>
+                        <div class="social_icon">
+                            <a href="#"><img src="img/fb.svg" alt=""></a>
+                            <a href="#"><img src="img/google.svg" alt=""></a>
+                            <a href="#"><img src="img/apple.svg" alt=""></a>
+                        </div>
+                        <p>Don’t have an account? <a data-toggle="modal" data-dismiss="modal" href="#signup">Sign Up</a></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>    
+
+    <!-- sign modal -->
+    <div class="modal fade" id="signup" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body p-0 text-center">
+                    <div class="text-left">
+                        <button data-dismiss="modal" data-toggle="modal" data-target="#login" type="button" class="back_btn">
+                            <img src="img/back.svg" alt="">
+                        </button>
+                    </div>
+                    <h2>Sign Up</h2>
+                    <p>Get enjoy sarawak account and find your joy wherever you are or wherever you’re going</p>
+                    <form action="#" class="account_form">
+                        <input type="email" placeholder="Enter E-mail">
+                        <input type="tel" placeholder="+60">
+                        <input type="password" placeholder="Enter Password">
+                        <input type="text" placeholder="Referral Code (if any)">
+                        <button type="submit" class="button mb_20">Sign Up Now</button>
+
+                        <p>By signing up or logging in, you acknowledge and agree to EnjoySarawak's Terms of Use and Privacy Policy</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- start header -->
+    <header>
+        <div class="header_top">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-5">
+                        <a href="index.html" class="logo">
+                            <img src="img/logo.svg" class="w-100" alt="">
+                        </a>
+                    </div>
+                    <div class="col-7 d-flex align-items-center justify-content-end top_menu">
+                        <form action="#">
+                            <select>
+                                <option>Eng</option>
+                                <option>Fra</option>
+                                <option>Deu</option>
+                            </select>
+                        </form>
+                        <ul>
+                            <li><a href="#">Go to app</a></li>
+                            <li><a href="#">Help</a></li>
+                        </ul>
+                        <div class="btn_group d-none d-lg-flex align-items-center">
+                            <a href="#signup" data-toggle="modal" class="button outline">Sign up</a>
+                            <a href="#login" data-toggle="modal" class="button">Log in</a>
+                        </div>
+
+                        <!-- menu toggler -->
+                        <div class="hamburger-menu">
+                            <span class="line-top"></span>
+                            <span class="line-center"></span>
+                            <span class="line-bottom"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header_bottom">
+            <div class="container">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Hotel</a></li>
+                    <li><a href="#">Special Stay</a></li>
+                    <li><a href="#" class="active">Food</a></li>
+                    <li><a href="#">Tour & Activities</a></li>
+                    <li><a href="#">Healthcare</a></li>                        
+                    <li><a href="#">Spa & Wellness</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- mobile menu -->
+        <div class="mobile_menu d-lg-none">
+            <div class="container">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Hotel</a></li>
+                    <li><a href="#">Special Stay</a></li>
+                    <li><a href="#" class="active">Food</a></li>
+                    <li><a href="#">Tour & Activities</a></li>
+                    <li><a href="#">Healthcare</a></li>                        
+                    <li><a href="#">Spa & Wellness</a></li>
+                    <li><a href="#">Go to app</a></li>
+                    <li><a href="#">Help</a></li>
+                </ul>
+                <div class="btn_group d-flex align-items-center justify-content-center mt_40">
+                    <a href="#signup" data-toggle="modal" class="button outline">Sign up</a>
+                    <a href="#login" data-toggle="modal" class="button">Log in</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="overflow-hidden">
+        <!-- home area -->
+        <div class="home_area inner_home" style="background-image: url(img/bg2.jpg);">
+            <div class="container">
+                <div class="home_content mx-auto text-center">
+                    <h1>Foods</h1>
+                    <form action="#" class="select_form">
+                        <div class="d-flex align-items-center w-100">
+                            <div class="location_icon">
+                                <img src="img/pin.svg" alt="">
+                            </div>
+                            <div class="input_group w-100">
+                                <label for="select">Search</label>
+                                <input type="text" placeholder="Search Food or Restaurant">
+                            </div>
+                        </div>
+                        <button class="button" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- register_area -->
+        <div class="section_padd">
+            <div class="container">
+                <div class="register_area" style="background-image: url(img/pass_book.jpg);">
+                    <div class="register_box">
+                        <h2>Register Now to get Free RM100</h2>
+                        <a href="#" class=" button white_btn">Book Now <i class="far fa-long-arrow-right"></i></a>
+                    </div>
+                    <div class="logo_box">
+                        <img src="img/logo2.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- food area -->
+        <div class="food_area section_padd pt-5">
+            <div class="container">
+                <div class="food_box">
+                    <div class="owl-carousel slider2">
+                        <div class="item">
+                            <a href="#" class="food_item">
+                                <img src="img/food1.png" alt="">
+                                <p>Chinese</p>
+                            </a>
+                        </div>                        
+                        <div class="item">
+                            <a href="#" class="food_item">
+                                <img src="img/food2.png" alt="">
+                                <p>Western</p>
+                            </a>
+                        </div>                        
+                        <div class="item">
+                            <a href="#" class="food_item">
+                                <img src="img/food3.png" alt="">
+                                <p>Soul Food</p>
+                            </a>
+                        </div>                        
+                        <div class="item">
+                            <a href="#" class="food_item">
+                                <img src="img/food4.png" alt="">
+                                <p>Sea Food</p>
+                            </a>
+                        </div>                        
+                        <div class="item">
+                            <a href="#" class="food_item">
+                                <img src="img/food5.png" alt="">
+                                <p>Mexican</p>
+                            </a>
+                        </div>                        
+                        <div class="item">
+                            <a href="#" class="food_item">
+                                <img src="img/food6.png" alt="">
+                                <p>Indian</p>
+                            </a>
+                        </div>                        
+                        <div class="item">
+                            <a href="#" class="food_item">
+                                <img src="img/food7.png" alt="">
+                                <p>Korean</p>
+                            </a>
+                        </div>                        
+                        <div class="item">
+                            <a href="#" class="food_item">
+                                <img src="img/food8.png" alt="">
+                                <p>American</p>
+                            </a>
+                        </div>                        
+                        <div class="item">
+                            <a href="#" class="food_item">
+                                <img src="img/food7.png" alt="">
+                                <p>Korean</p>
+                            </a>
+                        </div>                        
+                        <div class="item">
+                            <a href="#" class="food_item">
+                                <img src="img/food8.png" alt="">
+                                <p>American</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Popular_Deals_area -->
+        <div class="popular_area section_padd title">
+            <div class="container">
+                <h2>Food deals</h2>
+                <div class="row mt_10">
+                    <div class="col-lg-3 col-sm-6 mt_40">
+                        <div class="popular_item">
+                            <a href="#" class="popular_img">
+                                <img src="img/img1.jpg" alt="" class="w-100">
+                            </a>
+                            <div class="popular_content">
+                                <h5>Chinese</h5>
+                                <a href="#"><h3>Chicken skewers with slices</h3></a>
+                                <ul>
+                                    <li><img src="img/pin2.svg" alt=""></li>
+                                    <li>Kuching</li>
+                                </ul>
+                                <h4><span>From</span> RM 120.50</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 mt_40">
+                        <div class="popular_item">
+                            <a href="#" class="popular_img">
+                                <img src="img/img2.jpg" alt="" class="w-100">
+                            </a>
+                            <div class="popular_content">
+                                <h5>Thai</h5>
+                                <a href="#"><h3>Spicy thai soup with shrimp</h3></a>
+                                <ul>
+                                    <li><img src="img/pin2.svg" alt=""></li>
+                                    <li>Samarahan</li>
+                                </ul>
+                                <h4><span>From</span> RM 147.50</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 mt_40">
+                        <div class="popular_item">
+                            <a href="#" class="popular_img">
+                                <img src="img/img3.jpg" alt="" class="w-100">
+                            </a>
+                            <div class="popular_content">
+                                <h5>Mexican</h5>
+                                <a href="#"><h3>Mexican tacos with beef meat</h3></a>
+                                <ul>
+                                    <li><img src="img/pin2.svg" alt=""></li>
+                                    <li>Serian </li>
+                                </ul>
+                                <h4><span>From</span> RM 166.50</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 mt_40">
+                        <div class="popular_item">
+                            <a href="#" class="popular_img">
+                                <img src="img/img4.jpg" alt="" class="w-100">
+                            </a>
+                            <div class="popular_content">
+                                <h5>Lebanese</h5>
+                                <a href="#"><h3>Tortilla wrap with falafel</h3></a>
+                                <ul>
+                                    <li><img src="img/pin2.svg" alt=""></li>
+                                    <li>Sri Aman</li>
+                                </ul>
+                                <h4><span>From</span> RM 150.50</h4>
+                            </div>
+                        </div>
+                    </div>                    
+                    <div class="col-lg-3 col-sm-6 mt_40">
+                        <div class="popular_item">
+                            <a href="#" class="popular_img">
+                                <img src="img/img5.jpg" alt="" class="w-100">
+                            </a>
+                            <div class="popular_content">
+                                <h5>Indian</h5>
+                                <a href="#"><h3>Indian dhal spicy curry</h3></a>
+                                <ul>
+                                    <li><img src="img/pin2.svg" alt=""></li>
+                                    <li>Betong</li>
+                                </ul>
+                                <h4><span>From</span> RM 120.50</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 mt_40">
+                        <div class="popular_item">
+                            <a href="#" class="popular_img">
+                                <img src="img/img6.jpg" alt="" class="w-100">
+                            </a>
+                            <div class="popular_content">
+                                <h5>Western</h5>
+                                <a href="#"><h3>Greek style pasta</h3></a>
+                                <ul>
+                                    <li><img src="img/pin2.svg" alt=""></li>
+                                    <li>Bintulu</li>
+                                </ul>
+                                <h4><span>From</span> RM 98.50</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 mt_40">
+                        <div class="popular_item">
+                            <a href="#" class="popular_img">
+                                <img src="img/img7.jpg" alt="" class="w-100">
+                            </a>
+                            <div class="popular_content">
+                                <h5>Mexican</h5>
+                                <a href="#"><h3>Mexican tacos with beef meat</h3></a>
+                                <ul>
+                                    <li><img src="img/pin2.svg" alt=""></li>
+                                    <li>Mukah</li>
+                                </ul>
+                                <h4><span>From</span> RM 100.50</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 mt_40">
+                        <div class="popular_item">
+                            <a href="#" class="popular_img">
+                                <img src="img/img8.jpg" alt="" class="w-100">
+                            </a>
+                            <div class="popular_content">
+                                <h5>American</h5>
+                                <a href="#"><h3>Delicious american hamburger</h3></a>
+                                <ul>
+                                    <li><img src="img/pin2.svg" alt=""></li>
+                                    <li>Sri Aman </li>
+                                </ul>
+                                <h4><span>From</span> RM 120.50</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center mt_40">
+                    <a href="#" class="button">View More</a>
+                </div>
+            </div>
+        </div>
+        <!-- Explore Restaurants area -->
+        <div class="explore_resturants section_padd title">
+            <div class="container">
+                <h2>Explore Restaurants</h2>
+                <div class="row mt_20 regular_gutters justify-content-center">
+                    <div class="col-lg-3 col-sm-4 col-6 mt_30">
+                        <a href="#" class="explore_img">
+                            <img src="img/restu1.jpg" alt="" class="w-100">
+                            <h3>Fine dine</h3>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-4 col-6 mt_30">
+                        <a href="#" class="explore_img">
+                            <img src="img/restu2.jpg" alt="" class="w-100">
+                            <h3>Fine dine</h3>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-4 col-6 mt_30">
+                        <a href="#" class="explore_img">
+                            <img src="img/restu3.jpg" alt="" class="w-100">
+                            <h3>Taste of Lebanese</h3>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-4 col-6 mt_30">
+                        <a href="#" class="explore_img">
+                            <img src="img/restu4.jpg" alt="" class="w-100">
+                            <h3>Salsa hub</h3>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-4 col-6 mt_30">
+                        <a href="#" class="explore_img">
+                            <img src="img/restu5.jpg" alt="" class="w-100">
+                            <h3>Mexican rodeo</h3>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-4 col-6 mt_30">
+                        <a href="#" class="explore_img">
+                            <img src="img/restu6.jpg" alt="" class="w-100">
+                            <h3>Deck nine</h3>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-4 col-6 mt_30">
+                        <a href="#" class="explore_img">
+                            <img src="img/restu7.jpg" alt="" class="w-100">
+                            <h3>Taste of Lebanese</h3>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-4 col-6 mt_30">
+                        <a href="#" class="explore_img">
+                            <img src="img/restu8.jpg" alt="" class="w-100">
+                            <h3>Salsa hub</h3>
+                        </a>
+                    </div>
+                </div>
+                <div class="text-center mt_40">
+                    <a href="#" class="button">View More</a>
+                </div>
+            </div>
+        </div>
+        <!-- Find_more_area -->
+        <div class="find_more_area section_padd">
+            <div class="container">
+                <div class="find_color">
+                    <img src="img/hbook.png" alt="" class="find_book">
+                    <div class="row justify-content-between align-items-center">
+                        <div class="col-lg-5 col-sm-6">
+                            <h3>Find more Hotel Deals on the App</h3>
+                            <div class="find_btn mt_30">
+                                <a href="#"><img src="img/app.svg" alt=""></a>
+                                <a href="#"><img src="img/play.svg" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <ul>
+                                <li>Up to 15% off</li>
+                                <li>Save with Klook credits</li>
+                                <li>Manage bookings easier</li>
+                            </ul>
+                            <a href="#" class="button black_btn">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- footer_area -->
+    <footer>
+        <div class="footer_top">
+            <img src="img/f_right.png" alt="" class="right_shape">
+            <img src="img/f_left.png" alt="" class="left_shape">
+            <div class="container">
+                <div class="row justify-content-between no-gutters">
+                    <div class="col-lg-3 col-sm-6 mt_50">
+                        <p>Lorem ipsum dolor sit amet, adipiscing elit, sed do eiusmod tempor incididunt...</p>
+                        <h2>Social Media</h2>
+                        <div class="icon_box mt_15">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-google"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 mt_50">
+                        <h2>Contact Us</h2>
+                        <div class="contact_box">
+                            <a href="tel:1123456789">
+                                <div class="contact_icon">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                +1123456789
+                            </a>    
+                            <a href="mailto:Klook008@gmail.com">
+                                <span class="contact_icon">
+                                    <i class="fas fa-envelope"></i>
+                                </span>
+                                Klook008@gmail.com
+                            </a>
+                            <p href="#">
+                                <span class="contact_icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </span>
+                                4140 Parker Rd. Allentown, New Mexico 31134
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-6 mt_50">
+                        <h2>Useful Links</h2>
+                        <ul>
+                            <li><a href="#">Terms of Use</a></li>
+                            <li><a href="#">Prvacy Policy</a></li>
+                            <li><a href="#">Faq’s</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 mt_50">
+                        <h3>Want to see more? Download the app. It's free!</h3>
+                        <div class="card_box mt_30">
+                            <a href="#"><img src="img/app.svg" alt=""></a>
+                            <a href="#"><img src="img/play.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_bottom_area">
+            <div class="container">
+                <p>© Copyright 2023 EnjoySarawak</p>
+                <ul>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+    <!--====== BACK TO TOP START ======-->
+    <a href="#" class="back-to-top"><i class="fal fa-angle-up"></i></a>
+    
+    <!-- all js here -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,545 @@
+/*Extra large devices (large desktops, 1200px and up)*/
+
+@media (min-width: 1600px) { 
+	.container{
+		max-width: 1440px;
+	}
+}
+@media (min-width: 1366px) and (max-width:1599.98px) {
+	html{
+		font-size: 55%;
+	}
+	.container{
+		max-width: 1270px;
+	}
+	.slider1 .owl-nav button {
+	    width: 5.4rem;
+	    height: 5.4rem;
+	}
+	.slider1 .owl-nav button.owl-prev {
+	    left: -6rem;
+	}	
+	.slider1 .owl-nav button.owl-next {
+	    right: -6rem;
+	}
+}
+@media (min-width: 1200px) and (max-width:1365.98px) {
+	html{
+		font-size: 50.5%;
+	}
+	.container{
+		max-width: 1170px;
+	}
+	.slider1 .owl-nav button {
+	    width: 5.4rem;
+	    height: 5.4rem;
+	}
+	.slider1 .owl-nav button.owl-prev {
+	    left: -3rem;
+	}	
+	.slider1 .owl-nav button.owl-next {
+	    right: -3rem;
+	}
+}
+@media (min-width: 992px) and (max-width:1199.98px) {
+	html{
+		font-size: 41.86%;
+	}
+	.container{
+		max-width: 970px;
+	}
+	.slider1 .owl-nav button {
+	    width: 5.4rem;
+	    height: 5.4rem;
+	}
+	.slider1 .owl-nav button.owl-prev {
+	    left: -3rem;
+	}	
+	.slider1 .owl-nav button.owl-next {
+	    right: -3rem;
+	}
+}
+
+@media (max-width: 991.98px) {
+	html{
+		font-size: 54%;
+	}
+	.top_menu>ul,
+	.header_bottom{
+		display: none;
+	}
+	.logo {
+	    max-width: 16.5rem;
+	}
+	.mobile_menu{
+		position: fixed;
+		top: 0;
+		left: -100%;
+		background-color: #fff;
+		text-align: center;
+		z-index: -1;
+		-webkit-transition: 0.3s;
+		-o-transition: 0.3s;
+		transition: 0.3s;
+		overflow: auto;
+		padding-top: 12rem;
+		padding-bottom: 2rem;
+		width: 100%;
+		height: 100%;
+		overflow: auto;
+	}
+	.mobile_menu ul li{
+		margin-top: 1rem;
+	}
+	.mobile_menu ul li a{
+		color: var(--dark);
+		font-size: 2.6rem;
+	}
+	.mobile_menu ul li a:hover,
+	.mobile_menu ul li a.active{
+		color: var(--yellow);
+	}
+	.mobile_menu ul li a.active{
+		font-weight: 500;
+	}
+	.mobile_menu.current{
+		left: 0;
+	}
+	.hamburger-menu {
+		display: block;
+	}
+	.title h2 {
+	    font-size: 5.4rem;
+	}
+	.home_area h1 {
+	    font-size: 6rem;
+	}
+	.home_area p {
+	    font-size: 2.8rem;
+	}
+	.register_area{
+		background-image: none !important;
+		background-color: var(--yellow);
+	}
+	.register_box {
+	    max-width: 40.4rem;
+	    padding-left: 2rem;
+	}
+	.find_more_area .find_book {
+	    display: none;
+	}
+	.find_more_area .find_color {
+	    padding: 5rem 4rem;
+	}
+	.find_color h3 {
+	    font-size: 4.2rem;
+	}
+	.find_btn a img {
+	    width: 16rem;
+	}
+	.find_btn a:not(:last-child) {
+	    margin-right: 1rem;
+	}
+	.slider1 .owl-nav button.owl-prev {
+	    left: -3rem;
+	}
+	.slider1 .owl-nav button.owl-next {
+	    right: -3rem;
+	}
+	.custom_row .col:first-child,
+	.custom_row .col:last-child {
+	    max-width: 100%;
+	    -webkit-box-flex: 0;
+	        -ms-flex: 0 0 100%;
+	            flex: 0 0 100%;
+	}
+	.attra_box .row>div:nth-child(odd) {
+	    padding-right: 2rem;
+	}
+	.attra_box .row>div:nth-child(even) {
+	    padding-left: 2rem;
+	    border-left: none;
+	}
+	.home_content.v2 .select_form .nice-select, 
+	.home_content.v2 .select_form input,
+	.guests-input button {
+	    font-size: 1.5rem;
+	}
+	.deluxe_room_items{
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+	}
+	.deluxe_room_img {
+	    width: 100%;
+	    -ms-flex-negative: 0;
+	        flex-shrink: 0;
+	    margin-right: 0rem;
+	    margin-bottom: 2rem;
+	}
+	.hotel_internet_section{
+		display: block !important;
+	}
+	.hotel_internet_img {
+	    width: 100%;
+	    margin-right: 0rem;
+	    margin-bottom: 2rem;
+	}
+	.hotel_internet_img img{
+		height: 30rem;
+		-o-object-fit: cover;
+		   object-fit: cover;
+	}
+	.profile_drop_down{
+		margin-left: 2.5rem;
+	}
+	.step_wrapper .progress {
+	    width: 91%;
+	}
+}
+
+/*Medium devices (tablets, 767px and down)*/
+@media (max-width: 767.98px) {
+	html{
+		font-size: 40%;
+	}
+	.mobile_menu {
+	    padding-top: 15rem;
+	}
+}
+
+/*Small devices (landscape phones, 575px and down)*/
+@media (max-width: 575.98px) {
+	.container{
+		padding-left: 3rem;
+		padding-right: 3rem;
+	}
+	html{
+		font-size: 1.8vw;
+	}
+	.select_form{
+		display: block;
+		padding: 3rem;
+		border-radius: 2rem;
+	}
+	.select_form .button{
+		width: 100%;
+		margin-left: 0;
+		margin-top: 3rem;
+	}
+	.nice-select .current{
+		width: 100%;
+		display: block;
+		white-space: nowrap;
+		overflow: hidden;
+		-o-text-overflow: ellipsis;
+		   text-overflow: ellipsis;
+	}
+	.input_group.w-100 {
+		width: 87% !important;
+	}
+	.home_area {
+	    padding: 13rem 0;
+	}
+	.register_area{
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: reverse;
+		    -ms-flex-direction: column-reverse;
+		        flex-direction: column-reverse;
+		text-align: center;
+		padding: 4rem 3rem;
+	}
+	.register_box{
+		padding-left: 0;
+		padding-bottom: 0;
+		max-width: 100%;
+		padding-top: 8rem;
+	}
+	.logo_box{
+		margin-left: 0;
+	}
+	.logo_box::before {
+	    height: 39rem;
+	    top: -77%;
+	    -webkit-transform: translateY(-50%) translateX(50%);
+	        -ms-transform: translateY(-50%) translateX(50%);
+	            transform: translateY(-50%) translateX(50%);
+	    right: 50%;
+	}
+	.offer_content h3 {
+	    font-size: 3rem;
+	}
+	.find_color ul{
+		margin-top: 5rem;
+	}
+	.find_btn a img {
+	    width: 20rem;
+	}
+	.owl-dots{
+		margin-top: 3rem;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+		-webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+	}
+	.owl-dots button{
+		height: 1.5rem;
+		width: 1.5rem;
+		border-radius: 50%;
+		background-color: var(--dark);
+		padding: 0.2rem;
+		margin: 0 0.5rem;
+	}
+	.owl-dots button.active{
+		background-color: var(--yellow);
+	}
+	.select_form label {
+	    font-size: 1.6rem;
+	}
+	.popular_content h3 {
+	    font-size: 3rem;
+	}
+	body{
+		font-size: 2.2rem;
+	}
+	.popular_img img {
+	    height: 26rem;
+	}
+	.footer_bottom_area .container {
+	    display: block;
+	    text-align: center;
+	}
+	.footer_bottom_area ul{
+		-webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+		margin-top: 1rem;
+	}
+	.footer_bottom_area{
+		font-size: 1.8rem;
+	}
+	.contact_box a, .contact_box p {
+	    font-size: 2rem;
+	}
+	.footer_top p {
+	    max-width: 35rem;
+	}
+	.footer_top h2, .footer_top h3 {
+	    font-size: 3.4rem;
+	    max-width: 100%;
+	}
+	.card_box a img {
+	    width: 21.5rem;
+	}
+	.right_shape,
+	.left_shape{
+		display: none;
+	}
+	.popular_content h5,
+	.popular_content ul li{
+	    font-size: 2rem;
+	}
+	.nice-select .option {
+	    width: 100%;
+	    max-width: 40rem;
+	    white-space: nowrap;
+	    overflow: hidden;
+	    -o-text-overflow: ellipsis;
+	       text-overflow: ellipsis;
+	}
+	.button{
+		font-size: 2.2rem;
+	}
+	.food_box {
+	    padding: 3.2rem 3.5rem;
+	}
+	.inner_home h1 {
+	    padding-bottom: 0rem;
+	}
+	.details_cover_area .container>img {
+	    border-radius: 2rem;
+	    height: 30rem;
+	    -o-object-fit: cover;
+	       object-fit: cover;
+	}
+	.breadcrumb-item a, .breadcrumb-item {
+	    font-size: 2rem;
+	}
+	.breadcrumb-item+.breadcrumb-item {
+	    padding-left: 1rem;
+	}
+	.breadcrumb-item+.breadcrumb-item::before {
+	    padding-right: 1rem;
+	}
+	.deal_details .item>img {
+	    border-radius: 2rem;
+	    height: 30rem;
+	    -o-object-fit: cover;
+	       object-fit: cover;
+	}
+	.payment_item label {
+	    font-size: 2.2rem;
+	}
+	.payment_item img {
+	    height: 3.5rem;
+	}
+	.payment_header h3 {
+	    font-size: 3rem;
+	}
+	.box_footer .button {
+	    width: 100%;
+	    max-width: 100%;
+	}
+	.title h2 {
+	    font-size: 4.6rem;
+	}
+	.small_box h4 {
+	    font-size: 2.7rem;
+	}
+	.quantity_item h4 {
+	    font-size: 2.6rem;
+	}
+	.coin_box .range_wrap {
+	    width: calc(100% - 14.2rem);
+	    -webkit-box-flex: 0;
+	        -ms-flex: 0 0 calc(100% - 14.2rem);
+	            flex: 0 0 calc(100% - 14.2rem);
+	}
+	.home_content.v2 .select_form .nice-select, 
+	.home_content.v2 .select_form input,
+	.guests-input button {
+	    font-size: 2rem;
+	}
+	.home_content.v2 .select_form>div:nth-child(1), 
+	.home_content.v2 .select_form>div:nth-child(2) {
+	    border-right: none;
+	    padding-right: 0rem;
+	    margin-right: 0rem;
+	    margin-bottom: 2.5rem;
+	}
+	.deluxe_room_items .d-flex{
+		display: block !important;
+	}
+	.deluxe_room_right{
+		text-align: left;
+		margin-top: 2rem;
+	}
+	.reviews_hotel_item{
+		display: block;
+	}
+	.reviews_hotel_left {
+	    border-right: none;
+	    padding-right: 0rem;
+	    margin-right: 0rem;
+	    width: 100%;
+	    margin-bottom: 2rem;
+	}
+	.progress_top,
+	.progress_top h5 {
+	    margin-bottom: 0.6rem;
+	    font-size: 2rem;
+	    line-height: 1.12;
+	}
+	.attra_box ul li {
+	    font-size: 2.2rem;
+	}
+	.facilities_section .facilities_box h2 {
+	    width: 20rem;
+	    margin-right: 2.8rem;
+	}
+	.facilities_box_right ul li{
+		margin-right: 0;
+		width: 100%;
+	}
+	.checkin_policy_box .facilities_box{
+		display: block;
+	}
+	.hotel_internet_top{
+		display: block;
+	}
+	.hotel_internet_right{
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+		-webkit-box-pack: justify;
+		    -ms-flex-pack: justify;
+		        justify-content: space-between;
+		margin-top: 1.5rem;
+	}
+	.hotel_internet_right h5{
+		margin-bottom: 0;
+	}
+	.profile_drop_down i,
+	.profile_drop_down span{
+		display: none;
+	}
+	.profile_drop_down button img{
+		margin-right: 0;
+	}
+	.profile_right_content .nav-pills li:not(:last-child) {
+	    margin-right: 2rem;
+	}
+	.profile_right_content .hotel_internet_bottom{
+		display: block;
+	}
+	.step_wrapper .progress {
+	    width: 83%;
+	}
+	.buy_fixed_btn{
+		position: sticky;
+		bottom: 0;
+		left: 0;
+		z-index: 10;
+	}
+	.buy_fixed_btn .button{
+		width: 100%;
+		border-radius: 0;
+	}
+	.overlay{
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0, 0, 0, 0.5);
+		z-index: 1026;
+		-webkit-transition: 0.35s;
+		-o-transition: 0.35s;
+		transition: 0.35s;
+		opacity: 0;
+		pointer-events: none;
+	}
+	.overlay.open{
+		opacity: 1;
+		pointer-events: all;
+	}
+	.voucher_wrap {
+	    position: fixed;
+	    z-index: 1027;
+	    bottom: -100%;
+	    background: #fff;
+	    width: 100%;
+	    left: 0;
+	    border: none;
+	    border-radius: 0;
+	    padding-bottom: 6rem;
+	    margin-top: 0;
+	    padding-left: 3rem;
+	    padding-right: 3rem;
+	    -webkit-transition: 0.35s;
+	    -o-transition: 0.35s;
+	    transition: 0.35s;
+	}
+	.voucher_wrap.open{
+		bottom: 0;
+	}
+}

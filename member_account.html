@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="app, landing, corporate, Creative, Html Template, Template">
+    <meta name="author" content="web-themes">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, initial-scale=1">
+
+    <!-- title -->
+    <title>EnjoySarawak</title>
+
+    <!-- favicon -->
+    <link href="img/favicon.png" type="image/png" rel="icon">
+
+    <!-- all css here -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/fontawesome.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/owl.carousel.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/nice-select.css" rel="stylesheet" type="text/css" />  
+    <link href="css/helper.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/responsive.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <!-- Preloader Start -->
+    <div id="preloader">
+        <div class="loader3">
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+    <!-- Preloader End -->
+
+
+    <!-- login modal -->
+    <div class="modal fade" id="login" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body p-0 text-center">
+                    <h2>Log In</h2>
+                    <p>Login to start EnjoySarawak journey</p>
+                    <form action="#" class="account_form">
+                        <input type="email" placeholder="Enter E-mail">
+                        <input type="password" placeholder="Enter Password">
+                        <button type="submit" class="button">Log In</button>
+                        <div class="or_text"><span>OR</span></div>
+                        <div class="social_icon">
+                            <a href="#"><img src="img/fb.svg" alt=""></a>
+                            <a href="#"><img src="img/google.svg" alt=""></a>
+                            <a href="#"><img src="img/apple.svg" alt=""></a>
+                        </div>
+                        <p>Don’t have an account? <a data-toggle="modal" data-dismiss="modal" href="#signup">Sign Up</a></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>    
+
+    <!-- sign modal -->
+    <div class="modal fade" id="signup" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body p-0 text-center">
+                    <div class="text-left">
+                        <button data-dismiss="modal" data-toggle="modal" data-target="#login" type="button" class="back_btn">
+                            <img src="img/back.svg" alt="">
+                        </button>
+                    </div>
+                    <h2>Sign Up</h2>
+                    <p>Get enjoy sarawak account and find your joy wherever you are or wherever you’re going</p>
+                    <form action="#" class="account_form">
+                        <input type="email" placeholder="Enter E-mail">
+                        <input type="tel" placeholder="+60">
+                        <input type="password" placeholder="Enter Password">
+                        <input type="text" placeholder="Referral Code (if any)">
+                        <button type="submit" class="button mb_20">Sign Up Now</button>
+
+                        <p>By signing up or logging in, you acknowledge and agree to EnjoySarawak's Terms of Use and Privacy Policy</p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- start header -->
+    <header>
+        <div class="header_top">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-5">
+                        <a href="index.html" class="logo">
+                            <img src="img/logo.svg" class="w-100" alt="">
+                        </a>
+                    </div>
+                    <div class="col-7 d-flex align-items-center justify-content-end top_menu">
+                        <form action="#">
+                            <select>
+                                <option>Eng</option>
+                                <option>Fra</option>
+                                <option>Deu</option>
+                            </select>
+                        </form>
+                        <ul>
+                            <li><a href="#">Go to app</a></li>
+                            <li><a href="#">Help</a></li>
+                        </ul>
+                        <div class="dropdown profile_drop_down">
+                            <button type="button" data-toggle="dropdown" aria-expanded="false">
+                                <img src="img/profile.jpg" alt="">
+                                <span>Rachel Richards</span>
+                                <i class="far fa-angle-down"></i>
+                            </button>
+                            <div class="dropdown-menu dropdown-menu-right">
+                                <a class="dropdown-item" href="#">Profile</a>
+                                <a class="dropdown-item" href="#">Settings</a>
+                                <a class="dropdown-item" href="#">logout</a>
+                            </div>
+                        </div>
+
+                        <!-- menu toggler -->
+                        <div class="hamburger-menu">
+                            <span class="line-top"></span>
+                            <span class="line-center"></span>
+                            <span class="line-bottom"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header_bottom">
+            <div class="container">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Hotel</a></li>
+                    <li><a href="#">Special Stay</a></li>
+                    <li><a href="#">Food</a></li>
+                    <li><a href="#">Tour & Activities</a></li>
+                    <li><a href="#">Healthcare</a></li>                        
+                    <li><a href="#">Spa & Wellness</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- mobile menu -->
+        <div class="mobile_menu d-lg-none">
+            <div class="container">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Hotel</a></li>
+                    <li><a href="#">Special Stay</a></li>
+                    <li><a href="#">Food</a></li>
+                    <li><a href="#">Tour & Activities</a></li>
+                    <li><a href="#">Healthcare</a></li>                        
+                    <li><a href="#">Spa & Wellness</a></li>
+                    <li><a href="#">Go to app</a></li>
+                    <li><a href="#">Help</a></li>
+                </ul>
+                <div class="btn_group d-flex align-items-center justify-content-center mt_40">
+                    <a href="#signup" data-toggle="modal" class="button outline">Sign up</a>
+                    <a href="#login" data-toggle="modal" class="button">Log in</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="overflow-hidden">
+        <div class="member_account section_padd">
+            <div class="container">
+                <div class="row regular_gutters">
+                    <div class="col-lg-4 mt_25">
+                        <div class="profile_area">
+                            <div class="profile_man mx-auto">
+                                <img src="img/profile.jpg" alt="">
+                                <a href="#"><img src="img/pen.png" alt=""></a>
+                            </div>
+                            <h3>Rachel Richards</h3>                            
+                        </div>
+                        <div class="profile_wapper mt_25">
+                            <div class="profile_items">
+                                <a href="#">
+                                    <span>
+                                        <img src="img/pro1.svg" alt="">
+                                        Promo code
+                                    </span>
+                                    <i class="fal fa-angle-right"></i>
+                                </a>
+                            </div>
+                            <div class="profile_items">
+                                <a href="#">
+                                    <span>
+                                        <img src="img/pro2.svg" alt="">
+                                        Balance Point
+                                    </span>
+                                    <h5>250</h5>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="profile_wapper mt_25">
+                            <div class="profile_items">
+                                <a href="#">
+                                    <span>
+                                        <img src="img/pro3.svg" alt="">
+                                        Bookings
+                                    </span>
+                                    <i class="fal fa-angle-right"></i>
+                                </a>
+                            </div>
+                            <div class="profile_items">
+                                <a href="#">
+                                    <span>
+                                        <img src="img/pro4.svg" alt="">
+                                        Reviews
+                                    </span>
+                                    <i class="fal fa-angle-right"></i>
+                                </a>
+                            </div>
+                        </div>                        
+                        <div class="profile_wapper mt_25">
+                            <div class="profile_items">
+                                <a href="#">
+                                    <span>
+                                        <img src="img/pro5.svg" alt="">
+                                        Login methods
+                                    </span>
+                                    <i class="fal fa-angle-right"></i>
+                                </a>
+                            </div>
+                            <div class="profile_items">
+                                <a href="#">
+                                    <span>
+                                        <img src="img/pro6.svg" alt="">
+                                        Settings
+                                    </span>
+                                    <i class="fal fa-angle-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-8 mt_25">
+                        <div class="profile_right_content">
+                            <ul class="nav nav-pills">
+                                <li class="nav-item">
+                                    <button class="nav-link active" data-toggle="pill" data-target="#pills-home" type="button">Hotel <span>(6)</span></button>
+                                </li>
+                                <li class="nav-item">
+                                    <button class="nav-link" data-toggle="pill" data-target="#pills-profile" type="button">Special Stay <span>(5)</span></button>
+                                </li>
+                                <li class="nav-item">
+                                    <button class="nav-link" data-toggle="pill" data-target="#pills-contact" type="button">Food <span>(2)</span></button>
+                                </li>
+                            </ul>
+                            <div class="tab-content" id="pills-tabContent">
+                                <div class="tab-pane fade show active" id="pills-home">
+                                    <div class="hotel_internet_section d-flex">
+                                        <div class="hotel_internet_img">
+                                            <img src="img/hoteli1.jpg" alt="" class="w-100">
+                                        </div>
+                                        <div class="w-100">
+                                            <div class="hotel_internet_top">
+                                                <div class="hotel_internet_left">
+                                                    <a href="#"><h3>Imperial Riverbank Hotel</h3></a>
+                                                    <h4>Double Deluxe Queen Bed</h4>
+                                                </div>
+                                                <div class="hotel_internet_right">
+                                                    <h3>RM 780.87</h3>
+                                                </div>
+                                            </div>
+                                            <div class="hotel_internet_bottom">
+                                                <div class="imperial_wapper">
+                                                    <div class="imperial_items">
+                                                        <h5>14 Apr, Fri</h5>
+                                                        <p>Check In</p>
+                                                    </div>
+                                                    <div class="imperial_items">
+                                                        <h5>16 Apr, Sun</h5>
+                                                        <p>Check Out</p>
+                                                    </div>
+                                                    <div class="imperial_items">
+                                                        <h5>1 Room</h5>
+                                                        <p>Room</p>
+                                                    </div>
+                                                </div>
+                                                <a href="#" class="button">Book Again</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="hotel_internet_section d-flex">
+                                        <div class="hotel_internet_img">
+                                            <img src="img/hoteli2.jpg" alt="" class="w-100">
+                                        </div>
+                                        <div class="w-100">
+                                            <div class="hotel_internet_top">
+                                                <div class="hotel_internet_left">
+                                                    <a href="#"><h3>Holiday in</h3></a>
+                                                    <h4>Double Deluxe Queen Bed</h4>
+                                                </div>
+                                                <div class="hotel_internet_right">
+                                                    <h3>RM 1200.50</h3>
+                                                </div>
+                                            </div>
+                                            <div class="hotel_internet_bottom">
+                                                <div class="imperial_wapper">
+                                                    <div class="imperial_items">
+                                                        <h5>14 Apr, Fri</h5>
+                                                        <p>Check In</p>
+                                                    </div>
+                                                    <div class="imperial_items">
+                                                        <h5>16 Apr, Sun</h5>
+                                                        <p>Check Out</p>
+                                                    </div>
+                                                    <div class="imperial_items">
+                                                        <h5>1 Room</h5>
+                                                        <p>Room</p>
+                                                    </div>
+                                                </div>
+                                                <a href="#" class="button">Book Again</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="pills-profile">
+                                    <div class="hotel_internet_section d-flex">
+                                        <div class="hotel_internet_img">
+                                            <img src="img/hoteli1.jpg" alt="" class="w-100">
+                                        </div>
+                                        <div class="w-100">
+                                            <div class="hotel_internet_top">
+                                                <div class="hotel_internet_left">
+                                                    <a href="#"><h3>Imperial Riverbank Hotel</h3></a>
+                                                    <h4>Double Deluxe Queen Bed</h4>
+                                                </div>
+                                                <div class="hotel_internet_right">
+                                                    <h3>RM 780.87</h3>
+                                                </div>
+                                            </div>
+                                            <div class="hotel_internet_bottom">
+                                                <div class="imperial_wapper">
+                                                    <div class="imperial_items">
+                                                        <h5>14 Apr, Fri</h5>
+                                                        <p>Check In</p>
+                                                    </div>
+                                                    <div class="imperial_items">
+                                                        <h5>16 Apr, Sun</h5>
+                                                        <p>Check Out</p>
+                                                    </div>
+                                                    <div class="imperial_items">
+                                                        <h5>1 Room</h5>
+                                                        <p>Room</p>
+                                                    </div>
+                                                </div>
+                                                <a href="#" class="button">Book Again</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="hotel_internet_section d-flex">
+                                        <div class="hotel_internet_img">
+                                            <img src="img/hoteli2.jpg" alt="" class="w-100">
+                                        </div>
+                                        <div class="w-100">
+                                            <div class="hotel_internet_top">
+                                                <div class="hotel_internet_left">
+                                                    <a href="#"><h3>Holiday in</h3></a>
+                                                    <h4>Double Deluxe Queen Bed</h4>
+                                                </div>
+                                                <div class="hotel_internet_right">
+                                                    <h3>RM 1200.50</h3>
+                                                </div>
+                                            </div>
+                                            <div class="hotel_internet_bottom">
+                                                <div class="imperial_wapper">
+                                                    <div class="imperial_items">
+                                                        <h5>14 Apr, Fri</h5>
+                                                        <p>Check In</p>
+                                                    </div>
+                                                    <div class="imperial_items">
+                                                        <h5>16 Apr, Sun</h5>
+                                                        <p>Check Out</p>
+                                                    </div>
+                                                    <div class="imperial_items">
+                                                        <h5>1 Room</h5>
+                                                        <p>Room</p>
+                                                    </div>
+                                                </div>
+                                                <a href="#" class="button">Book Again</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="pills-contact">
+                                    <div class="hotel_internet_section d-flex">
+                                        <div class="hotel_internet_img">
+                                            <img src="img/hoteli1.jpg" alt="" class="w-100">
+                                        </div>
+                                        <div class="w-100">
+                                            <div class="hotel_internet_top">
+                                                <div class="hotel_internet_left">
+                                                    <a href="#"><h3>Imperial Riverbank Hotel</h3></a>
+                                                    <h4>Double Deluxe Queen Bed</h4>
+                                                </div>
+                                                <div class="hotel_internet_right">
+                                                    <h3>RM 780.87</h3>
+                                                </div>
+                                            </div>
+                                            <div class="hotel_internet_bottom">
+                                                <div class="imperial_wapper">
+                                                    <div class="imperial_items">
+                                                        <h5>14 Apr, Fri</h5>
+                                                        <p>Check In</p>
+                                                    </div>
+                                                    <div class="imperial_items">
+                                                        <h5>16 Apr, Sun</h5>
+                                                        <p>Check Out</p>
+                                                    </div>
+                                                    <div class="imperial_items">
+                                                        <h5>1 Room</h5>
+                                                        <p>Room</p>
+                                                    </div>
+                                                </div>
+                                                <a href="#" class="button">Book Again</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="hotel_internet_section d-flex">
+                                        <div class="hotel_internet_img">
+                                            <img src="img/hoteli2.jpg" alt="" class="w-100">
+                                        </div>
+                                        <div class="w-100">
+                                            <div class="hotel_internet_top">
+                                                <div class="hotel_internet_left">
+                                                    <a href="#"><h3>Holiday in</h3></a>
+                                                    <h4>Double Deluxe Queen Bed</h4>
+                                                </div>
+                                                <div class="hotel_internet_right">
+                                                    <h3>RM 1200.50</h3>
+                                                </div>
+                                            </div>
+                                            <div class="hotel_internet_bottom">
+                                                <div class="imperial_wapper">
+                                                    <div class="imperial_items">
+                                                        <h5>14 Apr, Fri</h5>
+                                                        <p>Check In</p>
+                                                    </div>
+                                                    <div class="imperial_items">
+                                                        <h5>16 Apr, Sun</h5>
+                                                        <p>Check Out</p>
+                                                    </div>
+                                                    <div class="imperial_items">
+                                                        <h5>1 Room</h5>
+                                                        <p>Room</p>
+                                                    </div>
+                                                </div>
+                                                <a href="#" class="button">Book Again</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- collapse content -->
+                            <div class="collapse" id="collapse4">
+                                <div class="hotel_internet_section d-flex">
+                                    <div class="hotel_internet_img">
+                                        <img src="img/hoteli1.jpg" alt="" class="w-100">
+                                    </div>
+                                    <div class="w-100">
+                                        <div class="hotel_internet_top">
+                                            <div class="hotel_internet_left">
+                                                <a href="#"><h3>Imperial Riverbank Hotel</h3></a>
+                                                <h4>Double Deluxe Queen Bed</h4>
+                                            </div>
+                                            <div class="hotel_internet_right">
+                                                <h3>RM 780.87</h3>
+                                            </div>
+                                        </div>
+                                        <div class="hotel_internet_bottom">
+                                            <div class="imperial_wapper">
+                                                <div class="imperial_items">
+                                                    <h5>14 Apr, Fri</h5>
+                                                    <p>Check In</p>
+                                                </div>
+                                                <div class="imperial_items">
+                                                    <h5>16 Apr, Sun</h5>
+                                                    <p>Check Out</p>
+                                                </div>
+                                                <div class="imperial_items">
+                                                    <h5>1 Room</h5>
+                                                    <p>Room</p>
+                                                </div>
+                                            </div>
+                                            <a href="#" class="button">Book Again</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="hotel_internet_section d-flex">
+                                    <div class="hotel_internet_img">
+                                        <img src="img/hoteli2.jpg" alt="" class="w-100">
+                                    </div>
+                                    <div class="w-100">
+                                        <div class="hotel_internet_top">
+                                            <div class="hotel_internet_left">
+                                                <a href="#"><h3>Holiday in</h3></a>
+                                                <h4>Double Deluxe Queen Bed</h4>
+                                            </div>
+                                            <div class="hotel_internet_right">
+                                                <h3>RM 1200.50</h3>
+                                            </div>
+                                        </div>
+                                        <div class="hotel_internet_bottom">
+                                            <div class="imperial_wapper">
+                                                <div class="imperial_items">
+                                                    <h5>14 Apr, Fri</h5>
+                                                    <p>Check In</p>
+                                                </div>
+                                                <div class="imperial_items">
+                                                    <h5>16 Apr, Sun</h5>
+                                                    <p>Check Out</p>
+                                                </div>
+                                                <div class="imperial_items">
+                                                    <h5>1 Room</h5>
+                                                    <p>Room</p>
+                                                </div>
+                                            </div>
+                                            <a href="#" class="button">Book Again</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="more_wrap">
+                                <a href="#collapse4" aria-expanded="false" data-toggle="collapse" class="attra_btn">
+                                    <span></span>
+                                    <i class="far fa-angle-down"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- footer_area -->
+    <footer>
+        <div class="footer_top">
+            <img src="img/f_right.png" alt="" class="right_shape">
+            <img src="img/f_left.png" alt="" class="left_shape">
+            <div class="container">
+                <div class="row justify-content-between no-gutters">
+                    <div class="col-lg-3 col-sm-6 mt_50">
+                        <p>Lorem ipsum dolor sit amet, adipiscing elit, sed do eiusmod tempor incididunt...</p>
+                        <h2>Social Media</h2>
+                        <div class="icon_box mt_15">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-google"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 mt_50">
+                        <h2>Contact Us</h2>
+                        <div class="contact_box">
+                            <a href="tel:1123456789">
+                                <div class="contact_icon">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                +1123456789
+                            </a>    
+                            <a href="mailto:Klook008@gmail.com">
+                                <span class="contact_icon">
+                                    <i class="fas fa-envelope"></i>
+                                </span>
+                                Klook008@gmail.com
+                            </a>
+                            <p href="#">
+                                <span class="contact_icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </span>
+                                4140 Parker Rd. Allentown, New Mexico 31134
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-6 mt_50">
+                        <h2>Useful Links</h2>
+                        <ul>
+                            <li><a href="#">Terms of Use</a></li>
+                            <li><a href="#">Prvacy Policy</a></li>
+                            <li><a href="#">Faq’s</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 mt_50">
+                        <h3>Want to see more? Download the app. It's free!</h3>
+                        <div class="card_box mt_30">
+                            <a href="#"><img src="img/app.svg" alt=""></a>
+                            <a href="#"><img src="img/play.svg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_bottom_area">
+            <div class="container">
+                <p>© Copyright 2023 EnjoySarawak</p>
+                <ul>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+    <!--====== BACK TO TOP START ======-->
+    <a href="#" class="back-to-top"><i class="fal fa-angle-up"></i></a>
+    
+    <!-- all js here -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
